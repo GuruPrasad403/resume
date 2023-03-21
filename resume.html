@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>reume</title>
+<script type="text/javascript">
+function edu(){
+var e=document.getElementById("education").style;
+if(e.visibility=="hidden")
+e.visibility="visible";
+else
+e.visibility="hidden";
+}
+function wk(){
+var e=document.getElementById("works").style;
+if(e.visibility=="hidden")
+e.visibility="visible";
+else
+e.visibility="hidden";
+}
+function skl(){
+var e=document.getElementById("skills").style;
+if(e.visibility=="hidden")
+e.visibility="visible";
+else
+e.visibility="hidden";
+}
+
+</script>
+  <style type="text/css">
+*{
+  margin:0;
+  padding:0;
+}
+nav{
+display:block;
+margin: 0px;
+background-color: #eee;
+height:auto;
+padding: 10px;
+text-align:center;
+}
+nav span{
+  padding-left:3px;
+}
+ .s{
+ position:absolute;
+  top:40%;
+  left:10%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30pt;
+  color:white;
+  font-weight: bolder;
+}
+.s2{
+  position: absolute;
+  top:20%;
+  left:10%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30pt;
+  color:#fffeee;
+  font-weight: bolder;
+}
+nav span a{
+   text-decoration: none;
+    color: #566D7e;
+    padding: 10px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: 20pt;
+}
+nav span a:hover{
+background-color:whitesmoke;
+color:#1a1a1a;
+border-radius:20%;
+text-decoration:underline;
+}
+ p{
+   padding: 16px;
+    text-align: justify;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    margin:10px;
+   }
+h3{
+  font-variant: small-caps;
+  font-weight: bolder;
+  font-size: 25pt;
+  margin: 7px;
+  padding: 5px;
+}
+.fff{
+  display:inline-block;
+  margin:10px;
+  position:relative;
+  padding:20px;
+  left:6%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16pt;
+  box-shadow:0 0 10px gray;
+  border-radius:40px;
+  width:300px;
+  hight:auto;
+}
+#works{
+visibility:hidden;
+display:inline-block;
+padding:40px;
+padding-bottom:30px;
+position:relative;
+left:8%;
+box-shadow:0 0 10px gray;
+width:250px;
+hight:auto;
+}
+#contact{
+       
+        overflow: hidden;
+        margin: 0px;
+        padding: 10px;
+        background-color: #eee;
+        text-align: center;
+        margin-top: 5px;
+        }
+      #contact span{
+        display:inline-block;
+        width:10%;
+        margin-left: 0px;
+        padding:10px;
+        
+        }
+        #contact img{
+            box-shadow: 0px 3px 6px 0px #1a1a1d;
+            border-radius: 50px;
+        }
+        #home img{
+display:inline-block;
+         position:relative; 
+         width:45vh;
+         hight:auto;
+         right:15%;
+         top:10%;
+         float:right;
+         border-radius:70px;        
+}
+           span a:hover {
+          background-color: #white;
+         }
+#about{
+text-aligin:justify;
+width:50%;
+position:absoulat;
+margin-left:10%;
+margin-right:20%;
+}
+#education{
+width:450px;
+left:3%;
+padding:25px;
+visibility:hidden;
+}
+</style>
+</head>
+<body onload="alert('Hello\n welcome to my blog');" onunload="alert('Thank you \n vist again');"><div>
+  <nav>
+    <span><a href="#home" >home</a><span>
+    <span><a href="#about">about</a><span>
+    <span><a href="#education" onclick="edu()">education</a><span>
+    <span><a href="#skills" onclick="skl()">skills</a><span>
+    <span><a href="#works" onclick="wk()">works</a><span>
+    <span><a href="#contact">contact</a><span>
+    
+  </nav>
+</div>
+<div id="home">
+  <img src="guru.jpeg">
+</div>
+<div id="about">
+  <h3><center><u>about</u></center></h3>
+  <p>Hello everyone, <br>
+My name is Guru Prasad G, and I am from Ballari.<br><br> I am currently pursuing a degree in computer application and have always been interested in coding. In my free time, I enjoy reading  books.
+I am also an avid traveler and love to visit new places.
+
+I believe that traveling helps broaden one’s perspective and helps one understand the world better. I am a hardworking and dedicated individual and always strive to give my best in everything I do. I am looking forward to a great academic journey at this university and hope to make the most of the opportunities that come my way.
+ <p>
+</div>
+
+<div class="fff" id="education">
+   <h3><u>education</u></h3><br>
+     <li> 2019-2020 sslc completed  with 84.48℅</li><br>
+      <li>2020-2022 puc completed  with 84.33℅</li>
+</div>
+<div style="visibility:hidden;" class="fff" id="skills">
+  <h3><u>skills</u></h3><br>
+  <li>front-end-devlopment</li>
+     <li>c++</li>  
+      <li>c-programing</li>
+</div>
+<div  id="works" class="fff">
+  <h3><u>Works</u></h3><br>
+ <ul>
+  <li><a href="https://shreemedhacollege.github.io/shreemedha/" style="text-decoration: none;font-variant:small-caps">project-1</a><br>
+  </li>
+<li><a href="https://cryptoguruprasadresume.wordpress.com/home/resume/" style="text-decoration: none;font-variant:small-caps">project-2</a>
+ </li></ul></div></center>
+</div><div id="contact">
+  <h3>CONTACT</h3>
+  <span><a href="https://wa.me/qr/4Q7UMETLUVLQI1"><img src="whatsapp.jpeg" alt="124034" width="100px" border="0"></a></span>
+  <span><a href="https://instagram.com/chandu_7.g?igshid=NTE5MzUyOTU="><img src="instagram.jpeg" alt="images-12" width="100px" border="0"></a></span>
+  <span><a href="guruprasas27@gmail.com"><img src="gmail.jpeg" width="100px" alt="image21" border="0"></a></span>
+</div>
+</body>
+</html>
